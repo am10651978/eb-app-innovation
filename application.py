@@ -107,7 +107,7 @@ welcome = """
 <body id="sample">
   <div class="textColumn">
     <h1>Stifel Innoation</h1>
-       <p>Elastic Beanstalk using Python....</p>
+       <p>Elastic Beanstalk using Python....Great!!!</p>
   </div>
   
   <div class="linksColumn"> 
