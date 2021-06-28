@@ -30,7 +30,7 @@ welcome = """
 <body id="sample">
   <div class="textColumn">
     <h1>Stifel Innoation</h1>
-    <p> This is new contents </P>
+    <p> This is new contents.... Changess </P>
        <p>Elastic Beanstalk using Python....<br> This is great !!!</p>
  
   </div>
