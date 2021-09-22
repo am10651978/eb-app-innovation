@@ -52,7 +52,7 @@ def application(environ, start_response):
                 logger.info("Received task %s scheduled at %s", environ['HTTP_X_AWS_SQSD_TASKNAME'],
                             environ['HTTP_X_AWS_SQSD_SCHEDULED_AT'])
         except (TypeError, ValueError):
-            logger.warning('Error retrieving request body for async work.')
+            logger.warning('Error retrieving error request body for async work.')
         response = ''
     else:
         response = welcome
